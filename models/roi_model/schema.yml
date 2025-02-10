@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: powerflow    #name of the source referenced in the models
+    database: powerflow
+    schema: public
+    tables:   #all of the tables referenced in the models
+      - name: registrations_raw
+      - name: appsflyer_raw
+      - name: google_ads
+      - name: transactions
