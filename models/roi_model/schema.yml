@@ -12,11 +12,13 @@ sources:
 
 models:
   - name: registrations_clean
+    description: This model filters out users who haven't completed registrations (NULL values)
     columns: 
       - name: user_id
         tests:
           - unique  # Checks if user_id is UNIQUE
-  - name: marketing_attribution 
+  - name: marketing_attribution
+    description: Google and Appsflyer data merged.
     columns: 
       - name: device_id
         tests:
@@ -26,6 +28,7 @@ models:
         tests:
           - not_null
   - name: ltv
+    description: This LTV table aggregates customer transaction data to compute Lifetime Value, based on purchases.
     columns: 
       - name: reg_date
         tests:
@@ -34,10 +37,12 @@ models:
         tests:
            - not_null
   - name: roi
+    description: Return of Investment table.
     columns: 
       - name: attribution_cost
         tests:
             - not_null
       - name: roi
+        description: Calculated as ltv on a day devided by attribution_cost.
         tests:
            - not_null
