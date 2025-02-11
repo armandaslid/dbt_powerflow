@@ -7,5 +7,11 @@ PowerFlow is a dbt-based project for calculating Return on Investment (RoI) from
 * [REGISTRATIONS_RAW](https://github.com/armandaslid/dbt_powerflow/blob/main/other_files/registrations.csv)  
 * [TRANSACTIONS](https://github.com/armandaslid/dbt_powerflow/blob/main/other_files/transactions.csv)
 * [CAMPAIGN_COSTS](https://github.com/armandaslid/dbt_powerflow/blob/main/other_files/campaign_costs.csv)  
-  
-<img src="https://github.com/armandaslid/dbt_powerflow/blob/main/other_files/DAG_PowerFlow.png" alt="PowerFlow DAG">
+
+### Preliminary DAG for creating the RoI dataset:  
+<img src="https://github.com/armandaslid/dbt_powerflow/blob/main/other_files/DAG_PowerFlow.png" alt="PowerFlow DAG">  
+
+### dbt-generated documentation:  
+* [dbt Docs](https://ga643.us1.dbt.com/accounts/70471823425060/develop/70471823575056/docs/index.html#!/overview)
+
+The rest of the models, tests, and other related files can be found inside [this repo](https://github.com/armandaslid/dbt_powerflow).
