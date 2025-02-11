@@ -14,4 +14,4 @@ PowerFlow is a dbt-based project for calculating Return on Investment (RoI) from
 ### dbt-generated documentation:  
 * [dbt Docs](https://ga643.us1.dbt.com/accounts/70471823425060/develop/70471823575056/docs/index.html#!/overview)
 
-The rest of the models, tests, and other related files can be found inside [this repo](https://github.com/armandaslid/dbt_powerflow).
+### The rest of the models, tests, and other related files can be found inside [this repo](https://github.com/armandaslid/dbt_powerflow).
